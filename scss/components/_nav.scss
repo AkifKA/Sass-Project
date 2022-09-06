@@ -21,11 +21,12 @@
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 500;
+    font-family: $font-family;
     &:hover {
       color: blue;
     }
     &--active {
-      color: orange;
+      color: $secondary-color;
     }
   }
 }
