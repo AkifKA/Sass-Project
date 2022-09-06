@@ -21,6 +21,7 @@
   text-transform: uppercase;
   font-weight: 500;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 1sec;
 }
 .nav__link:hover {
   color: blue;
