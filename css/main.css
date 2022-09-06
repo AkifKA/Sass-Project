@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-.link-style a, footer.vertical .social-icons a, footer.horizontal a {
+.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.4rem;
   transition: all 1sec;
 }
-.link-style a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
   color: #ff652f;
 }
 
@@ -41,6 +41,16 @@ footer.vertical .copyright {
   right: 3rem;
   writing-mode: vertical-rl;
   text-orientation: mixed;
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .nav {
@@ -123,10 +133,8 @@ footer.vertical .copyright {
   height: 40vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   flex-wrap: nowrap;
-  align-items: center;
-  gap: 2.5rem;
+  justify-content: center;
   text-align: center;
 }
 .contact h2 {
@@ -140,7 +148,6 @@ footer.vertical .copyright {
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
-  text-align: center;
   font-size: 1.5rem;
 }
 .contact .text-secondary {
