@@ -216,7 +216,7 @@ footer.middle {
       rgba(39, 39, 39, 0.9),
       rgba(39, 39, 39, 0.3)
     ),
-    url("../../img/model-1.jpg");
+    url("./img/model-1.jpg");
 =======
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("./img/model-1.jpg");
 >>>>>>> c6b98aa9ec8b93f0e5dd2e837433020a35bf50f2
