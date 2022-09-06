@@ -161,12 +161,16 @@ footer.middle {
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
+<<<<<<< HEAD
   background: linear-gradient(
       to right,
       rgba(39, 39, 39, 0.9),
       rgba(39, 39, 39, 0.3)
     ),
     url("../../img/model-1.jpg");
+=======
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("./img/model-1.jpg");
+>>>>>>> c6b98aa9ec8b93f0e5dd2e837433020a35bf50f2
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -206,12 +210,16 @@ footer.middle {
 .contact-bgImg-container {
   height: 100vh;
   width: 100%;
+<<<<<<< HEAD
   background: linear-gradient(
       to right,
       rgba(39, 39, 39, 0.9),
       rgba(39, 39, 39, 0.3)
     ),
     url("../../img/model-1.jpg");
+=======
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("./img/model-1.jpg");
+>>>>>>> c6b98aa9ec8b93f0e5dd2e837433020a35bf50f2
   background-position: center center;
   background-size: cover;
 }
